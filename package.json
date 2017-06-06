@@ -1,0 +1,29 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksyang/es6.git"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "yjz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacksyang/es6/issues"
+  },
+  "homepage": "https://github.com/jacksyang/es6#readme",
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
