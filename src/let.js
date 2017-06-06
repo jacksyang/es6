@@ -5,7 +5,7 @@ function f1() {
     if(true){
         let n=10;
     }
-    console.log(n);
+    // console.log(n);
 
 }
 function f2() {
@@ -13,7 +13,14 @@ function f2() {
     if(true){
          n=10;
     }
-    console.log(n);
+    // console.log(n);
 
 }
 const yjz=123;
+for(let i=0;i<5;i++){
+    console.log(i)
+}
+let i=1;
+{
+    let i=1
+}
