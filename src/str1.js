@@ -6,7 +6,8 @@ let a=1;
 let b=2;
 let result=`${a+b}`
 
-let abs="技术js";
-abs.includes("a");
-abs.endsWith("a");
-'123'.repeat(3)
+let abs="技术jsa";
+console.log(abs.includes("a"));
+console.log(abs.endsWith("a"));
+console.log(abs.startsWith("a"));
+console.log('123'.repeat(31))
