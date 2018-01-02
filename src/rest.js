@@ -1,7 +1,6 @@
 function yjz(first,...arg) {
     console.log(arg.length);
-    for(let val of arg){
-        console.log(val)
-    }
+    
 
 }
+yjz (123,12,123,12,23)
